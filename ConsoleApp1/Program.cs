@@ -2,7 +2,7 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World2!");
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < 10; i++)
 {
     Console.WriteLine("Hello, World"+i+"!");
 }
