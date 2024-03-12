@@ -10,9 +10,9 @@ for (int i = 0; i < 10; i++)
 static int calculateAverage(int[] ar)
 {
     int total = 0;
-    foreach (int n in ar)
+    foreach (int value in ar)
     {
-        total += n;
+        total += value;
     }
 
     return total / ar.Length;
