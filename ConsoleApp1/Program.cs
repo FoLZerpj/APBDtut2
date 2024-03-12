@@ -17,3 +17,17 @@ static int calculateAverage(int[] ar)
 
     return total / ar.Length;
 }
+
+static int calculateMax(int[] ar)
+{
+    int curMax = Int32.MinValue;
+    foreach (int n in ar)
+    {
+        if (n > curMax)
+        {
+            curMax = n;
+        }
+    }
+
+    return curMax;
+}
