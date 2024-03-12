@@ -6,3 +6,14 @@ for (int i = 0; i < 10; i++)
 {
     Console.WriteLine("Hello, World"+i+"!");
 }
+
+static int calculateAverage(int[] ar)
+{
+    int total = 0;
+    foreach (int n in ar)
+    {
+        total += n;
+    }
+
+    return total / ar.Length;
+}
